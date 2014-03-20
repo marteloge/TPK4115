@@ -42,7 +42,7 @@
 		samt at kritisk sti endres fra A-B-D-F-G-H til A-C-E-H. Måten vi beregnet dette på var
 		å beregne alle verdier i stien som ble påvirket av endringene i B og F. Dette er stien
 		A-B-D-F-G-H.
-		
+
 		\begin{figure}[H]
 			\includegraphics[width=\textwidth]{task2-1.png}
 			\caption{Tilfelle 1}
@@ -62,12 +62,37 @@
 	\clearpage
 	\subsection*{Oppgave 3}
 
+		{\bf Det viser seg at aktivitetene C og E ikke har deterministike varigheter, men at begges
+		varigheter følger normalfordelinger med forventningsverdier og varianser som vist under:}
+
+			\begin{table}[H]
+			\begin{tabular}{| p{2.5cm} | p{2.5cm} | p{2.5cm} |}
+				\hline
+				{\bf Aktivitet} & {\bf E(t)} & {\bf Var(t)} \\ \hline
+				C & 2 & 0.36 \\ \hline
+				E & 3 & 0.81 \\ \hline
+			\end{tabular}
+			\end{table}
+
+		{\bf Hva er sannsynligheten for at prosjektet får en varighet som er større enn det hadde med
+		bare terministiske varigheter?}
+
+		{\bf Hva er sannsynligheten for at kjeden A-C-E-H ikke overskrider 18 uker?}
+
+		{\bf Hvilken varighet må prosjektledelsen regne med dersom den vil være 90\% sikker på å 
+		ikke overskride denne?}
+
+		{\color{red} Vi fikk ikke til denne oppgaven. Er slike beregninger viktige for eksamen ?}
+
+
+
+
 	\clearpage
 	\subsection*{Oppgave 4}
 
 		\begin{table}[H]
 			\begin{tabular}{ >{\centering\arraybackslash}p{2cm} | >{\centering\arraybackslash}p{5cm} | >{\centering\arraybackslash}p{3cm}}
-				Aktivitet & Beregning av TE & Varighet ($\approx$) \\ \hline
+				Aktivitettabula & Beregning av TE & Varighet ($\approx$) \\ \hline
 				A & (12 + 4 * 15 + 15)/6 = 16.17 & 16 \\ \hline
 				B & (4 + 4 * 6 + 11)/6 = 6.5 & 7 \\ \hline
 				C & (12 + 4 * 12 + 30)/6 = 15 & 15 \\ \hline
@@ -97,4 +122,3 @@
 		aktiviteter som er avhengig av E. Det eneste som endres er at det ikke vil bli like mye slack og at 
 		seneste start/slutt endres videre i nettverket som en konsekvens av endringen. Selve prosjektet
 		vil ta like lang tid som før forsinkelsen, altså 82 uker. Kritisk sti forblir den samme. 
-
